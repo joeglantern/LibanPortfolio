@@ -28,14 +28,14 @@ Built by Liban Joe (Joe Glantern)
 
 ## Other Projects
 - [Memory Game](https://memorygame254.netlify.app/)
-- [Project 2](https://silly-puppy-a7b058.netlify.app/)
-- [Typing Game](https://typniniaje.netlify.app/)
+- [TPH ecommerce store](https://silly-puppy-a7b058.netlify.app/)
+- [Typni](https://typniniaje.netlify.app/)
 
 ## Getting Started
 
 1. Clone the repository
 ```bash
-git clone https://github.com/joeglantern/Task-Tracker.git
+git clone https://github.com/joeglantern/LibanPortfolio.git
 ```
 
 2. Install dependencies
@@ -65,4 +65,5 @@ This project is deployed on Netlify. The live version can be accessed at [your-n
 
 ## License
 
-MIT License - feel free to use this project for learning or as a base for your own task tracker! 
+MIT License - feel free to use this project for learning or as a base for your own task tracker!
+
