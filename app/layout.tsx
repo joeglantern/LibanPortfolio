@@ -21,7 +21,7 @@ export default function RootLayout({
         {children}
         <Script
           strategy="afterInteractive"
-          data-goatcounter="https://libanworld.goatcounter.com/count"
+          data-goatcounter="https://libanportfolio.goatcounter.com/count"
           src="//gc.zgo.at/count.js"
         />
       </body>
