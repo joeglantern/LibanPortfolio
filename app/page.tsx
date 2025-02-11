@@ -266,7 +266,7 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
           </div>
           <h1 className="text-3xl font-bold text-white animate-fade-up">Welcome to My Portfolio</h1>
           <p className="text-gray-400 max-w-md mx-auto animate-fade-up">
-            I'm Liban Joe, a Full Stack Developer passionate about creating beautiful and functional web applications.
+            I'm Joseph Liban M., a Full Stack Developer passionate about creating beautiful and functional web applications.
             Explore my projects and get in touch!
           </p>
           <div className="animate-bounce mt-8">
@@ -675,7 +675,7 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                               />
                             </div>
                             <div className="flex items-center justify-center gap-2">
-                              <h2 className="text-2xl font-bold mb-2 dark:text-white">Liban Joe</h2>
+                              <h2 className="text-2xl font-bold mb-2 dark:text-white">Joseph Liban M.</h2>
                               <BadgeCheck className="w-5 h-5 text-blue-500" />
                             </div>
                             <p className="text-gray-600 dark:text-gray-300">Full Stack Developer</p>
@@ -1120,7 +1120,7 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                                 />
                               </div>
                               <div className="flex items-center justify-center gap-2">
-                                <h2 className="text-2xl font-bold mb-2 dark:text-white">Liban Joe</h2>
+                                <h2 className="text-2xl font-bold mb-2 dark:text-white">Joseph Liban M.</h2>
                                 <BadgeCheck className="w-5 h-5 text-blue-500" />
                               </div>
                               <p className="text-gray-600 dark:text-gray-300">Full Stack Developer</p>

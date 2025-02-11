@@ -19,7 +19,7 @@ A beautiful and intuitive task management application built with Next.js, React,
 
 ## Developer
 
-Built by Liban Joe (Joe Glantern)
+Built by Joseph Liban M. (Joe Glantern)
 - Instagram: [@joe_.glantern](https://www.instagram.com/joe_.glantern/)
 - TikTok: [@joe_lib_an](https://www.tiktok.com/@joe_lib_an)
 - GitHub: [joeglantern](https://github.com/joeglantern/Task-Tracker)
