@@ -508,11 +508,11 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                           </div>
 
                           <div className="space-y-3 mb-4">
-                            <Input
-                              type="text"
-                              value={newTask}
-                              onChange={(e) => setNewTask(e.target.value)}
-                              placeholder="Enter a new task"
+                <Input
+                  type="text"
+                  value={newTask}
+                  onChange={(e) => setNewTask(e.target.value)}
+                  placeholder="Enter a new task"
                               className="bg-white/50"
                             />
                             
@@ -570,10 +570,10 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                             />
 
                             <Button onClick={addTask} className="w-full bg-blue-500 hover:bg-blue-600">
-                              <Plus className="h-4 w-4 mr-2" />
+                  <Plus className="h-4 w-4 mr-2" />
                               Add Task
-                            </Button>
-                          </div>
+                </Button>
+              </div>
 
                           <div className="grid grid-cols-2 gap-2 mb-4">
                             <div className="bg-blue-50 p-3 rounded-lg dark:bg-blue-900/20">
@@ -594,7 +594,7 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                             </div>
                           </div>
 
-                          <div className="space-y-2">
+              <div className="space-y-2">
                             {filteredAndSortedTasks.map((task) => (
                               <div
                                 key={task.id}
@@ -602,14 +602,14 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                                   isDarkMode ? 'dark:bg-gray-700/50' : ''
                                 }`}
                               >
-                                <Checkbox
-                                  id={`task-${task.id}`}
-                                  checked={task.completed}
-                                  onCheckedChange={() => toggleTask(task.id)}
-                                />
+                    <Checkbox
+                      id={`task-${task.id}`}
+                      checked={task.completed}
+                      onCheckedChange={() => toggleTask(task.id)}
+                    />
                                 <div className="ml-2 flex-grow">
-                                  <label
-                                    htmlFor={`task-${task.id}`}
+                    <label
+                      htmlFor={`task-${task.id}`}
                                     className={`flex flex-col ${task.completed ? "line-through text-gray-500" : "text-gray-800 dark:text-white"}`}
                                   >
                                     <span className="font-medium">{task.text}</span>
@@ -630,21 +630,21 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                                     {task.notes && (
                                       <span className="text-xs text-gray-500 dark:text-gray-400 mt-1">{task.notes}</span>
                                     )}
-                                  </label>
+                    </label>
                                 </div>
                                 <div className="flex gap-1">
                                   <Button variant="ghost" size="sm" onClick={() => shareTask(task)}>
                                     <Share2 className="h-4 w-4" />
                                   </Button>
-                                  <Button variant="ghost" size="sm" onClick={() => deleteTask(task.id)}>
-                                    <Trash2 className="h-4 w-4" />
-                                  </Button>
+                    <Button variant="ghost" size="sm" onClick={() => deleteTask(task.id)}>
+                      <Trash2 className="h-4 w-4" />
+                    </Button>
                                 </div>
-                              </div>
-                            ))}
-                          </div>
+                  </div>
+                ))}
+              </div>
 
-                          <div className="mt-4">
+              <div className="mt-4">
                             <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-2">
                               <span>Progress: {completedTasks} / {tasks.length} tasks completed</span>
                               <span>{Math.round(progress)}%</span>
@@ -788,9 +788,9 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                   )}
                 </div>
               </div>
+              </div>
             </div>
-          </div>
-        ) : (
+          ) : (
           // MacBook Frame
           <div className="absolute inset-0 bg-gradient-to-b from-gray-200 to-gray-300 rounded-lg shadow-2xl">
             <div className="absolute inset-[3px] bg-gray-800 rounded-lg overflow-hidden">
@@ -808,16 +808,16 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                     {!isAppOpen ? (
                       <>
                         <div className="grid grid-cols-6 gap-6 p-6">
-                          <button
+              <button
                             onClick={() => {
                               setIsAppOpen(true)
                               setCurrentApp('tasks')
                             }}
                             className="flex flex-col items-center justify-center w-16 h-16 bg-blue-500 rounded-2xl shadow-lg hover:scale-105 transition-transform animate-fade-in"
-                          >
-                            <CheckSquare className="w-8 h-8 text-white" />
-                            <span className="text-xs text-white mt-1">Tasks</span>
-                          </button>
+              >
+                <CheckSquare className="w-8 h-8 text-white" />
+                <span className="text-xs text-white mt-1">Tasks</span>
+              </button>
 
                           <button
                             onClick={() => {
@@ -1229,9 +1229,9 @@ ${task.notes ? `Notes: ${task.notes}` : ''}
                             </div>
                           </div>
                         )}
-                      </div>
-                    )}
-                  </div>
+            </div>
+          )}
+        </div>
                 </div>
               </div>
             </div>

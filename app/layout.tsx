@@ -1,12 +1,13 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./Global.css"
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Task Tracker",
-  description: "A simple and beautiful task tracking application",
+  title: "Liban's World🌍🇰🇪",
+  description: "Welcome to Liban's portfolio - Full Stack Developer showcasing beautiful and functional web applications",
 }
 
 export default function RootLayout({
@@ -16,7 +17,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Script
+          strategy="afterInteractive"
+          data-goatcounter="https://libanworld.goatcounter.com/count"
+          src="//gc.zgo.at/count.js"
+        />
+      </body>
     </html>
   )
 }
